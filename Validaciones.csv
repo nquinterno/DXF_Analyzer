@@ -1,0 +1,13 @@
+Grupo,Subgrupo,Validación,Resultado,Observacion,Que se valida?
+General,Layer,N° de Layers,,,Que la cantidad de layers del dxf coincida con la cantiad de la plantilla que se encuentran configurados en el archivo Config_Layers.csv
+General,Layer,Configuración de Layers,,,Que la configuración de los layers del dxf coincida con la configuración que se encuentra en el archivo Config_Layers.csv
+General,Bloques,N° de Bloques,,,Que la cantidad de bloques del dxf coincida con la cantiad de la plantilla que se encuentran configurados en el archivo Config_Bloques.csv
+General,Bloques,Configuración de Layers,,,Que la configuración de los Bloques del dxf coincida con la configuración que se encuentra en el archivo Config_Bloques.csv
+Caratula,Caratula,Caratula Bloque,,,Que exista la el bloque caratula y no este en el model
+Caratula,Caratula,Datos de Caratula,,,Que los datos de la caratula este completos
+MODEL,Parcela,Parcela model,,,Que en el layer parcela todo lo que este dibujado sean polilineas cerradas y en el model
+MODEL,Cesiones,Cesiones model,,,Que en el layer cesiones todo lo que este dibujado sean polilineas cerradas y en el model
+BLOQUES,BALANCE,Balance_detalle,,,Si existe bloque de detalle de sup según mensura que la suma de todos los valores  
+BLOQUES,BALANCE,Balance_poligonos,,,Que el valor según mensura coincida con la suma de las superficies de parcela y a ceder truncada al cm2
+BLOQUES,DETALLE SUP MENS,Detalle_mensura,,,Que tenga la misma cantidad de campos que la suma de todos los poligonos en parcelas y a ceder
+BLOQUES,Nomenclaturas,Nom_parc,,,Que haya la misma cantidad de bloques nomenclatura que poligonos de parcela
